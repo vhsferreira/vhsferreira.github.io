@@ -40,7 +40,6 @@ header img {
     width: /*  */;
     height: auto;
     float: right;
-    box-shadow: 5px 10px 8px #888888;
 }
 
 footer {
@@ -54,4 +53,9 @@ footer {
     padding: 5px; 
     background-color: #eee; 
     line-height: 1.5em;
+}
+
+style {
+    
+    display: none;
 }
