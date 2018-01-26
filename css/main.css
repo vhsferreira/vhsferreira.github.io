@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
+    font-size: 2rem;/* x.xrem  (rem is a unit of measure) */;
     color: #c5af7d/* #xxxxxx */;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 1.5rem;/* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -26,7 +26,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 720px;/* xxxpx (px = pixel is a unit of measure)  */;
     
 }
 
@@ -37,13 +37,13 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
+    width: 175px;/*  */;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size: smaller;/* smaller */;
 }
 
 .style1 {
