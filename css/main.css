@@ -10,6 +10,7 @@ body {
     font-family: Ubuntu, sans-serif;
     color: black;
     background-color: lightyellow;
+    background-size: auto;
 }
 
 h1 {
