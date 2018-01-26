@@ -7,18 +7,18 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: sans-serif/* Ubuntu, sans-serif */;
-    color: black/* #xxxxxx */;
+    font-family: Ubuntu, sans-serif;
+    color: black;
     background-color: lightyellow;
 }
 
 h1 {
-    font-size: 2rem;/* x.xrem  (rem is a unit of measure) */;
-    color: #c5af7d/* #xxxxxx */;
+    font-size: 2rem;
+    color: #c5af7d;
 }
 
 h2 {
-    font-size: 1.5rem;/* x.xrem */;
+    font-size: 1.5rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -26,24 +26,24 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 720px;/* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 720px;
     
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: #002255 /* */;
+    background-color: #002255;
     color: #c5af7d;
 }
 
 header img {
-    width: 175px;/*  */;
+    width: 175px;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: smaller;/* smaller */;
+    font-size: smaller;
 }
 
 .style1 {
