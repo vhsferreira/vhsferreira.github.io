@@ -44,7 +44,7 @@ header img {
     border: 1px solid;
     box-shadow: 5px 10px 18px #888888;
     width: 130px;
-    height: 200px;
+    height: auto;
     float: right;
 }
 
