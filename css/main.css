@@ -26,6 +26,7 @@ h2 {
 }
 
 header, main, footer {
+    border: 2px solid black;
     margin: 1.60rem auto;
     padding: .5rem;
     max-width: 800px;
