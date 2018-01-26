@@ -23,7 +23,7 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
-header, main, footer, nav {
+header, main, footer {
     margin: 1.50rem auto;
     padding: .5rem;
     max-width: 750px;
