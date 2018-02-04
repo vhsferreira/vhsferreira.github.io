@@ -1,0 +1,107 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+    padding: 0;
+    background-color: #f7f7f7;
+    
+}
+
+
+header {
+    border: ;
+    margin: 1.20rem auto;
+    padding: 1rem;
+    height: auto;
+    max-width: auto;
+    text-align: left;
+    align-items: left;
+    display: flex;
+    background-color: #0181CC;
+    color: white;
+}
+
+header h1 {
+    
+    font-size: 2rem;
+    text-align: left ;
+    color: white;
+    
+}
+
+.subheading {
+    
+    font-size: 1rem;
+    text-align: left ;
+    color: yellow;
+    
+}
+
+nav, nav a {
+    
+    border: 0px;
+    margin: 1.60rem auto;
+    padding: .1rem;
+    max-width: auto;
+    box-shadow:;
+    background-color: #0181CC; 
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+main   {
+    
+    border: 0px solid;
+    margin: 1.60rem auto;
+    padding: .5rem;
+    max-width: 1000px;
+    box-shadow: 5px 10px 18px #888888; 
+    text-align: left;
+    background-color: white;
+
+}
+
+main h2, h1 {
+    
+    font-size: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #bbb;  
+    color: #0181CC;
+}
+
+footer {
+    
+    margin: 1.60rem auto;
+    padding: .1rem;
+    height: auto;
+    max-width: auto;
+    text-align: center;
+    background-color: #0181CC;
+    color: white;
+    font-size: smaller;
+    
+}
+
+header img {
+    border: ;
+    width: 95px;
+    height: auto;
+    float: left;
+    margin: 0px 15px 15px 0px;
+    clear: both;
+}
+
+article {
+    text-align: left;
+    font-size: 1rem;
+}
+
+
