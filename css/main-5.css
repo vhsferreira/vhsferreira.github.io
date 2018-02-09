@@ -1,0 +1,119 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    border: ;
+    margin: 1.20rem auto;
+    padding: 1rem;
+    height: auto;
+    max-width: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #0181CC;
+    color: white;
+}
+
+header h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+header h2 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+header img {
+    border: ;
+    width: 90px auto;
+    height: auto;
+    float: left;
+    margin: 0px 15px 15px 0px auto;
+    clear: both;
+}
+
+header .subheading {
+    
+    font-size: 1rem;
+    text-align: left ;
+    color: yellow;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0181CC;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+main   {
+    
+    border: 0px solid;
+    margin: 1.60rem;
+    padding: .5rem;
+    max-width: 900px auto;
+    box-shadow: 5px 10px 18px #888888; 
+    text-align: left;
+    background-color: white;
+
+}
+
+main h2, h1 {
+    
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb; 
+    color: #0181CC;
+}
+
+section {
+    text-align: left;
+    font-size: 0.8rem;
+    
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: ???; /* fill the page in the small/phone view */
+  margin: ???;
+}
+
+footer {
+    
+    margin: 1.60rem auto;
+    padding: .1rem;
+    height: auto;
+    max-width: auto;
+    text-align: center;
+    background-color: #0181CC;
+    color: white;
+    font-size: smaller;
+    
+}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
