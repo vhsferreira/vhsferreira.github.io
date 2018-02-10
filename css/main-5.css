@@ -14,7 +14,7 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 
 header {
     border: ;
-    margin: 5rem;
+    margin: 3rem;
     padding: 0;
     height: auto;
     max-width: auto;
@@ -55,7 +55,7 @@ header img {
 
 nav ul {
     list-style-type: none;
-    margin: 4rem;
+    margin: 1rem;
     padding: 0;
     overflow: hidden;
     background-color: black;
@@ -85,14 +85,14 @@ nav li a:hover {
 main   {
     
     border: 0px solid;
-    margin: 4rem;
+    margin: 1rem;
     padding: .5rem;
     max-width: 900px auto;
     box-shadow: 5px 10px 18px #888888; 
     text-align: center;
     background-color: white;
     font-family: 'Raleway',sans-serif;
-    margin-top: -50px;
+    margin-top: -5px;
 
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 .town-article img {
-    width: 240px;
+    width: 180px;
     height: 100px;
     float: center;
     margin: 0px 15px 15px 500px auto;
