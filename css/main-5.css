@@ -4,6 +4,7 @@
 
 body {
   font-size: 16px;
+    background-color: #0181CC;
   /* Declare the base font-family - from google font api or other */
 }
 
@@ -13,8 +14,8 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 
 header {
     border: ;
-    margin: 1.20rem auto;
-    padding: 1rem;
+    margin: 5rem;
+    padding: 0;
     height: auto;
     max-width: auto;
     text-align: center;
@@ -24,33 +25,39 @@ header {
     color: white;
 }
 
-header h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
-
-header h2 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+header h1 { 
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 20px; 
+    font-weight: 800; 
+    margin: 30px 10px 30px; 
+    text-align: center; 
+    text-transform: uppercase; }
 
 header img {
-    border: ;
-    width: 90px auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
     float: left;
     margin: 0px 15px 15px 0px auto;
     clear: both;
 }
 
-header .subheading {
+.subheading {
     
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left ;
     color: yellow;
+    font-family: 'Raleway',sans-serif;
+    margin: 0px 15px 15px 0px auto;
     
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 5rem;
     padding: 0;
     overflow: hidden;
-    background-color: #0181CC;
+    background-color: black;
 }
 
 nav li {
@@ -63,31 +70,49 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Raleway',sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #111;
+    background-color: lightblue;
 }
+
+
 
 main   {
     
     border: 0px solid;
-    margin: 1.60rem;
+    margin: 5rem;
     padding: .5rem;
     max-width: 900px auto;
     box-shadow: 5px 10px 18px #888888; 
     text-align: left;
     background-color: white;
+    font-family: 'Raleway',sans-serif;
 
 }
 
 main h2, h1 {
     
-    font-size: 1rem;
-    text-align: center;
-    border-bottom: 1px solid #bbb; 
+    font-size: 2rem;
+    text-align: center; 
     color: #0181CC;
+}
+
+main h3 {
+    
+    font-size: 1rem;
+    text-align: center; 
+    color: black;
+}
+
+main img {
+    width: 90px;
+    height: 100px;
+    float: center;
+    margin: 0px 15px 15px 0px auto;
+   
 }
 
 section {
@@ -103,7 +128,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
 
 footer {
     
-    margin: 1.60rem auto;
+    margin: 5rem;
     padding: .1rem;
     height: auto;
     max-width: auto;
@@ -111,8 +136,24 @@ footer {
     background-color: #0181CC;
     color: white;
     font-size: smaller;
+    font-family: 'Raleway',sans-serif;
+    
     
 }
+
+.highlow, .conditions{
+    font-size: 1rem;
+    text-align: center; 
+    color: black;
+}
+
+.town-article {
+    font-size: 1rem;
+    text-align: center; 
+    color: black;
+    
+}
+
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
