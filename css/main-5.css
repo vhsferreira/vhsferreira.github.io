@@ -153,10 +153,9 @@ footer {
     
 }
 
-.forecast{
-    
-  display: none;
-}
+section.forecast{
+    display:none;
+
 
 .current{
     
