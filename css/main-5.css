@@ -55,7 +55,7 @@ header img {
 
 nav ul {
     list-style-type: none;
-    margin: 5rem;
+    margin: 4rem;
     padding: 0;
     overflow: hidden;
     background-color: black;
@@ -85,14 +85,14 @@ nav li a:hover {
 main   {
     
     border: 0px solid;
-    margin: 5rem;
+    margin: 4rem;
     padding: .5rem;
     max-width: 900px auto;
     box-shadow: 5px 10px 18px #888888; 
     text-align: center;
     background-color: white;
     font-family: 'Raleway',sans-serif;
-    margin-top: -70px;
+    margin-top: -50px;
 
 }
 
