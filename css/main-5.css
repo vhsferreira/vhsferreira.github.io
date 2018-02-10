@@ -149,6 +149,15 @@ footer {
     
 }
 
+.town-article img {
+    width: 240px;
+    height: 100px;
+    float: center;
+    margin: 0px 15px 15px 500px auto;
+    
+    
+}
+
 section.forecast{
     display:none;
 }
