@@ -3,13 +3,13 @@
   
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
-  section.forecast { display: inline; }  /* show the 10-day forecast with the medium view and up */
+  section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
 }
 
-.forecast{
+section.forecast{
     display:inline;
 }
 
@@ -17,3 +17,4 @@ nav button{
     display:none;
     
 }
+
