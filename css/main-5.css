@@ -145,6 +145,7 @@ footer {
     text-align: center; 
     overflow-wrap: break-word;
     width: 50%;
+    clear: both;
     
 }
 

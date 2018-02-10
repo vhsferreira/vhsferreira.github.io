@@ -2,7 +2,7 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
   
   
-.town-article img { 
+.town-article { 
     width: 62.666%; 
     float:right; 
     }  /* responsive images */
