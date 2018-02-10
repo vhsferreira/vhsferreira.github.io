@@ -8,5 +8,7 @@
 section.forecast { display: inline; }  /* show the 10-day forecast with the medium view and up */
     
     
-
+.forecast{
+    display:inline;
+}
 
