@@ -118,12 +118,6 @@ main img {
    
 }
     
-}
-
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
-}
 
 footer {
     
@@ -149,7 +143,8 @@ footer {
 .town-article {
     font-size: 1rem;
     text-align: center; 
-    color: black;
+    overflow-wrap: break-word;
+    width: 50%;
     
 }
 
