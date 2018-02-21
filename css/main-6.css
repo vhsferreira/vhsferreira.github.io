@@ -85,8 +85,14 @@ nav li a:hover {
     background-color: lightblue;
 }
 
+nav figure.franklinphoto{
+    width: 50%;
+    margin: 0 0 0 25%;
+    float: center;
+        
+}
 
-    
+nav figure.franklinphoto img {width: 100%;}
 
 
 main   {
