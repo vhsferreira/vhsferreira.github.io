@@ -1,0 +1,143 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+      The Weather Now! | Get Forecast
+    </title>
+  <meta name="author" content="Vitor Ferreira">
+  <meta name="description" content="Get daily weather updates for your City!">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="css/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="css/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="css/medium-7.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="css/large-7.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="css/menu.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+    
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Site Logo">
+      <div>
+        <h1>THE WEATHER NOW!</h1>
+      <div class="subheading"><h2>Get Forecast</h2></div>
+      </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+      <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="franklin-7.html">Franklin</a>
+  <a href="#greenville">Greenville</a>
+  <a href="#springfield">Springfield</a>
+  <a href="#storm">Storm Center</a>
+  <a href="gallery-7.html">Gallery</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+      <div style="padding-left:16px">
+  <br>
+</div>
+<figure class="franklinphoto">
+
+<img src="images/franklin-high.jpg">
+    <figcaption>Franklin</figcaption>
+
+</figure>
+      
+  </nav>
+    
+    <!-- Main -->
+    
+  <main>
+      
+      <h2>Franklin, VH</h2>
+    
+      <p>High: <span id="high">90</span>&deg;F</p> 
+      <p>Low: <span id="low">66</span>&deg;F</p> 
+
+      <p>Wind Speed: <span id="wind">5</span> mph SW</p> 
+      <p>Feels like: <span id="feelsLike"></span>&deg;F</p>
+    
+                                                                                                                             
+    <section>
+      <h3>Weather Summary</h3>
+      <div class="highlow">
+        <p>High: 90°F</p>  
+        <p>Low: 66°F</p>  
+      </div>
+      <center><div class="current">
+          <img src="images/sunny.png" alt="sunny">
+      </div></center>
+        <h3>Sunny</h3>
+      <div class="conditions">
+        <p>Precipitation: 0%</p>  
+        <p>Wind Speed: 5 mph SW</p>
+      </div>           
+    </section>
+        
+    <center><section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+	    <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+      </center>
+      
+    <center>
+        <article>
+            <h2>What is Global Warming?</h2>	
+            <p class="town-article">
+            <img src="images/globalwarming.jpeg" alt="Global Warming"><br><br>Global warming is the unusually rapid increase in Earth’s average surface temperature over the past century primarily due to the greenhouse gases released as people burn fossil fuels. The global average surface temperature rose 0.6 to 0.9 degrees Celsius (1.1 to 1.6° F) between 1906 and 2005, and the rate of temperature increase has nearly doubled in the last 50 years. Temperatures are certain to go up further.</p>
+        </article>
+    </center>		  
+  </main>
+    
+    <!-- Footer -->
+    
+  <footer>
+    <aside>
+      <h3>1188 Weather street, Wonderland, VH - info@weathernow.com - (818) 834-2345</h3>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Weather Now! | <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="js/hamburger.js"></script>
+  <script src="js/currentdate.js"></script>
+  <script src="js/windchill.js"></script>
+
+</body>
+</html>
