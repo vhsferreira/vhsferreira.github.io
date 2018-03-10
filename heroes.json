@@ -2,39 +2,32 @@
   "squadName" : "Sekai Ninja Sen Jiraiya",
   "homeTown" : "Japan",
   "formed" : 1988,
-  "secretBase" : "Yamaji Family Dojo",
+  "secretBase" : "Bujinkan",
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Kei Yamaji",
+      "age" : 16,
+      "secretIdentity" : "Himenin Emiha",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Cherry Blossoms Rain Ninja Art",
+        "Face Copying Ninja Art",
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Manabu Yamaji",
+      "age" : 9,
+      "secretIdentity" : "Manabu",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Marble Slingshot",
       ]
     },
     {
-      "name" : "Eternal Flame",
+      "name" : "Tetsuzan Yamaji",
       "age" : 1000000,
       "secretIdentity" : "Unknown",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Ninja Swords",
       ]
     }
   ]
