@@ -1,40 +1,40 @@
 {
-  "squadName" : "Gremio",
-  "homeTown" : "Porto Alegre",
-  "formed" : 1903,
-  "secretBase" : "Arena do Gremio",
+  "squadName" : "Super hero squad",
+  "homeTown" : "Metro City",
+  "formed" : 2016,
+  "secretBase" : "Super tower",
   "active" : true,
   "members" : [
     {
-      "name" : "Marcelo Grohe",
-      "age" : 31,
-      "secretIdentity" : "Milagrohe",
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
       "powers" : [
-        "Penalty defender",
-        "Shoot Stopper",
-        "Miracle Maker"
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      "name" : "Luan Vieira",
-      "age" : 24,
-      "secretIdentity" : "Luanel Messi",
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
       "powers" : [
-        "South American Footballer of the Year 2017",
-        "Copa Libertadores 2017 Best Player",
-        "Olympic Gold Medal 2016"
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      "name" : "Arthur Melo",
-      "age" : 21,
-      "secretIdentity" : "New Iniesta",
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
       "powers" : [
-        "100% accurate passes",
-        "Best Player in the final game Copa Libertadores 2017",
-        "Best Newcomer 2017",
-        "Plays for the Brazilian National team",
-        
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
