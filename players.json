@@ -2,17 +2,17 @@
   "squadName" : "Gremio",
   "homeTown" : "Porto Alegre",
   "formed" : 1903,
-  "secretBase" : "Super tower",
+  "secretBase" : "Arena do Gremio",
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Marcelo Grohe",
+      "age" : 31,
+      "secretIdentity" : "Milagrohe",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Penalty defender",
+        "Shoot Stopper",
+        "Miracle Maker"
       ]
     },
     {
