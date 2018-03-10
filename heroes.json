@@ -1,38 +1,40 @@
 {
-  "squadName" : "Gremio Foot-Bal Porto Alegrense",
-  "homeTown" : "Porto Alegre",
-  "formed" : 1903,
-  "secretBase" : "Arena do Gremio",
+  "squadName" : "Super hero squad",
+  "homeTown" : "Metro City",
+  "formed" : 2016,
+  "secretBase" : "Super tower",
   "active" : true,
   "members" : [
     {
-      "name" : "Marcelo Grohe",
-      "age" : 31,
-      "secretIdentity" : "Goalkeeper",
+      "name" : "Molecule Man",
+      "age" : 29,
+      "secretIdentity" : "Dan Jukes",
       "powers" : [
-        "Penalty Defender",
-        "Shoot Stopper",
-        "Do Miracles"
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
       ]
     },
     {
-      "name" : "Laun Vieira",
-      "age" : 24,
-      "secretIdentity" : "Forward",
+      "name" : "Madame Uppercut",
+      "age" : 39,
+      "secretIdentity" : "Jane Wilson",
       "powers" : [
-        "Scorer",
-        "Dribbler",
-        "Skillful"
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
-      "name" : "Arthur Melo",
-      "age" : 21,
-      "secretIdentity" : "Midfielder",
+      "name" : "Eternal Flame",
+      "age" : 1000000,
+      "secretIdentity" : "Unknown",
       "powers" : [
-        "Accurate Pass",
-        "Skilfull",
-        "Speed",
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
       ]
     }
   ]
