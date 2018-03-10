@@ -1,7 +1,7 @@
 {
-  "squadName" : "Gremio",
-  "homeTown" : "Porto Alegre",
-  "formed" : 1903,
+  "squadName" : "Gremio Foot-Ball Porto Alegrense",
+  "homeTown" : "Porto Alegre, Rio Grande do Sul",
+  "formed" : 15 September 1903,
   "secretBase" : "Arena do Gremio",
   "active" : true,
   "members" : [
@@ -16,25 +16,25 @@
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Luan Vieira",
+      "age" : 24,
+      "secretIdentity" : "Luanel Messi",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "South American Footballer of the Year 2017",
+        "Copa Libertadores 2017 Best Player",
+        "Olympic Gold Medal 2016"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "Arthur Melo",
+      "age" : 21,
+      "secretIdentity" : "New Iniesta",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "100% accurate passes",
+        "Best Player in the final game Copa Libertadores 2017",
+        "Best Newcomer 2017",
+        "Plays for the Brazilian National team",
+        
       ]
     }
   ]
