@@ -26,15 +26,13 @@
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "Arthur Melo",
+      "age" : 21,
+      "secretIdentity" : "Midfielder",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Accurate Pass",
+        "Skilfull",
+        "Speed",
       ]
     }
   ]
