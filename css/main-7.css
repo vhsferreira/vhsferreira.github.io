@@ -214,6 +214,13 @@ section.forecast{
     
 }
 
+#mainJson{
+   min-height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
