@@ -33,7 +33,7 @@
   <!-- site navigation use placeholder references -->
   <nav>
       <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
+  <a href="home.html" class="active">Home</a>
   <a href="franklin-7.html">Franklin</a>
   <a href="greenville.html">Greenville</a>
   <a href="springfield.html">Springfield</a>
@@ -57,29 +57,26 @@
     
   <main>
       
-      <h2>Franklin, VH</h2>
-    
+      <h2>Franklin, MN</h2>
+      <div class="conditions">
+      <h3>Weather Summary</h3>
+      
+      <span id="FrankWeather">Sunny</span>
+      
+      
       <p>High: <span id="high">90</span>&deg;F</p> 
       <p>Low: <span id="low">66</span>&deg;F</p> 
-
       <p>Wind Speed: <span id="wind">5</span> mph SW</p> 
       <p>Feels like: <span id="feelsLike"></span>&deg;F</p>
     
                                                                                                                              
     <section>
-      <h3>Weather Summary</h3>
-      <div class="highlow">
-        <p>High: 90°F</p>  
-        <p>Low: 66°F</p>  
-      </div>
-      <center><div class="current">
-          <img src="images/sunny.png" alt="sunny">
+      <center><div class="current"> 
+          <picture><img id="sun" src="images/sunny.png" alt="Sun shining"></picture>
       </div></center>
-        <h3>Sunny</h3>
-      <div class="conditions">
+        
         <p>Precipitation: 0%</p>  
-        <p>Wind Speed: 5 mph SW</p>
-      </div>           
+                
     </section>
         
     <center><section class="forecast">
@@ -138,6 +135,7 @@
   <script src="js/hamburger.js"></script>
   <script src="js/currentdate.js"></script>
   <script src="js/windchill.js"></script>
+  <script src="js/wu-weather.js"></script>
 
 </body>
 </html>
