@@ -6,23 +6,23 @@
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Marcelo Grohe",
+      "age" : 31,
+      "secretIdentity" : "Goalkeeper",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Penalty Defender",
+        "Shoot Stopper",
+        "Do Miracles"
       ]
     },
     {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "name" : "Laun Vieira",
+      "age" : 24,
+      "secretIdentity" : "Forward",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Scorer",
+        "Dribbler",
+        "Skillful"
       ]
     },
     {
