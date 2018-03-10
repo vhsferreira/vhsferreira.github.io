@@ -1,8 +1,8 @@
 {
-  "squadName" : "Super hero squad",
+  "squadName" : "Gremio Foot-Bal Porto Alegrense",
   "homeTown" : "Porto Alegre",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "formed" : 1903,
+  "secretBase" : "Arena do Gremio",
   "active" : true,
   "members" : [
     {
