@@ -110,7 +110,7 @@ main   {
 
 main h2, h1 {
     
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center; 
     color: #0181CC;
     
@@ -180,8 +180,6 @@ section.forecast{
     width: 100px;
     height: 100px;
     float: none;
-    
-    
 }
 
 .container{
@@ -197,20 +195,25 @@ section.forecast{
 .cell {
     margin: 1rem;
     border: 0.1px solid gray;
+    background-color: antiquewhite;
+    
 }
 
 
-.cell img{
+.cell img {
     display:block;
     width: 100%;
     height: auto;
     float: none;
 }
 
-.cell p{
+.cell p {
     text-align: center;
-    font-size: 15px;
-    
+    font-size: 16px;  
+}
+
+.cell h3 {
+    font-size: 30px;
     
 }
 
@@ -220,6 +223,8 @@ section.forecast{
     justify-content: center;
     align-items: center;
 }
+
+
 
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
