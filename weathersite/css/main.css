@@ -154,13 +154,6 @@ section.forecast{
     display:none;
 }
 
-.current{
-    
-    width: 100px;
-    height: 100px;
-    float: none;
-}
-
 .container{
     margin:0 auto;
     max-width: 1600px;
@@ -206,7 +199,14 @@ section{
     font-size: 20px;
 }
 
-
+.current{
+     width: 80px;
+    height: 80px;
+    float: center;
+    margin: 0px 15px 32px 200px;
+    clear: center;
+    
+}
 
 
 footer aside {}
