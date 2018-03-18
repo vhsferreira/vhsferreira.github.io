@@ -180,13 +180,13 @@ section.forecast{
 
 .cell p {
     text-align: center;
-    font-size: 27px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'arial', sans-serif;
 }
 
 .cell h3 {
     font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'arial', sans-serif;
     
 }
 
@@ -199,6 +199,7 @@ section{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    font-family: 'arial', sans-serif;
 }
 
 .current{
