@@ -44,7 +44,7 @@ header img {
     text-align: center;
     font-size: 0.9rem;
     color: yellow;
-    font-family: 'Raleway',sans-serif; 
+    font-family: 'arial',sans-serif; 
     
 }
 
@@ -63,7 +63,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'arial',sans-serif;
     float:left;
     
 }
@@ -180,11 +180,13 @@ section.forecast{
 
 .cell p {
     text-align: center;
-    font-size: 27px;  
+    font-size: 27px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .cell h3 {
     font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
     
 }
 
