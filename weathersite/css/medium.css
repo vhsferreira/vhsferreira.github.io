@@ -1,0 +1,35 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  
+.town-article { 
+    width: 62.666%; 
+    float:center; 
+    }  /* responsive images */
+
+
+section.forecast{
+    display:inline;
+}
+
+nav button{
+    display:none;
+    
+}
+    
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .cell{
+        width: calc(50% - 2rem);
+    }
+    
+    .cell p{
+        text-align: center;
+        padding: 15px;
+    }
+    
+}

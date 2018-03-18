@@ -1,0 +1,129 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+      The Weather Now! | Get Forecast
+    </title>
+  <meta name="author" content="Vitor Ferreira">
+  <meta name="description" content="Get daily weather updates for your City!">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="css/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="css/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="css/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="css/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="css/menu.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+    
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Site Logo" align="middle">
+      <div>
+        <h1>THE WEATHER NOW!</h1>
+      <div class="subheading"><h2>Get Forecast</h2></div>
+      </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+      <ul id="mainmenu" class="hide">
+      <div class="topnav" id="myTopnav">
+    <li class="active"><a href="home.html">Home</a></li>
+    <li><a href="franklin.html">Franklin</a></li>
+    <li><a href="greenville.html">Greenville</a></li>
+    <li><a href="springfield.html">Springfield</a></li>
+    <li><a href="stormcenter.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+          
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div></ul>
+      <div style="padding-left:16px">
+  <br>
+</div>
+      
+  </nav>
+    
+    <!-- Main -->
+    
+  <main>
+  <h3>This form is to report a storm or unusual weather event in your travel area.</h3>
+
+<div>
+  <form action="thankyou.html">
+      
+    <label for="fname">Full Name</label><br>
+    <input type="text" id="fname" name="fullname" required placeholder="Full Name.."><br><br>
+
+    <label for="email">E-mail</label><br>
+    <input type="email" name="email" placeholder="Email.."><br><br>
+      
+    <label for="usrtel">Phone Number</label><br>
+    <input type="tel" name="usrtel" required placeholder="123-456-7890"><br><br>
+      
+    <label for="zip">Zip Code</label><br>
+    <input type="number" name="zip" size="4" required placeholder="Zip Code.."><br><br>
+      
+    <label for="stormdate">Storm Date</label><br>
+    <input type="date" name="stormdate" placeholder="Storm Date.."><br><br>
+    
+    <label for="stormtype">Storm Type</label><br>
+    <input list="stormtypes" name="stormtype" placeholder="Select one">
+    <datalist id="stormtypes">
+    <option value="Flash Flood">
+    <option value="Hail">
+    <option value="Hurricane">
+    <option value="Thunderstorm">
+    <option value="Tornado">
+    </datalist><br><br>
+      
+    <label for="rating">Storm Severity (1 to 10) </label><br><br>
+		<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		<span id="ratingvalue">5</span><br><br>
+
+    <label for="stormregion">Storm Region</label><br>
+    <select id="stormregion" name="stormregion">
+      <option value="Select Region ..." selected disabled>Select Region ...</option>
+      <option value="Franklin">Franklin</option>
+      <option value="Greenville">Greenville</option>
+      <option value="Springfield">Springfield</option>
+    </select><br><br>
+      
+    <label for="usrdanger">User in-danger Level</label><br><br>
+    <input type="radio" name="usrdanger" value="yes" checked> Yes<br>
+    <input type="radio" name="usrdanger" value="maybe"> Maybe<br>
+    <input type="radio" name="usrdanger" value="no"> No<br><br>
+    
+    <label for="textarea">Additional information or comments: </label><br>  
+    <textarea>Comment here...</textarea>
+  
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</div>
+
+    <script src="js/rating.js"></script>                                                                                                                        
+      		  
+  </main>
+    
+    <!-- Footer -->
+    
+  <footer>
+    <aside>
+      <h3>1188 Weather street, Wonderland, VH - info@weathernow.com - (818) 834-2345</h3>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Weather Now! | <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="js/hamburger.js"></script>
+  <script src="js/currentdate.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/activeLink.js"></script>
+
+</body>
+</html>

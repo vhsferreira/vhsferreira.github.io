@@ -1,0 +1,215 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    background-color: #0181CC;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    margin: 2rem;
+    padding: 0;
+    height: auto;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #0181CC;
+    color: white;
+    margin-top: 2px;
+}
+
+header h1 { 
+    color: white; 
+    font-family: 'Bungee Inline', cursive; 
+    font-size: 40px;  
+    text-align: center; 
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0px 15px 32px 0px;
+    clear: left;
+}
+
+.subheading {
+    
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    font-family: 'Raleway',sans-serif; 
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 3rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -40px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    float:left;
+    
+}
+
+nav ul li.active a {
+    background: linear-gradient(#147429 0%, #1a9835 100%);
+    
+}
+
+main   {
+    
+    border: 0px solid;
+    margin: 1rem;
+    padding: .5rem;
+    max-width: 100%;
+    box-shadow: 5px 10px 18px #888888; 
+    text-align: center;
+    background-color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: -30px;
+
+}
+
+main h2, h1 {
+    
+    font-size: 2rem;
+    text-align: center; 
+    color: #0181CC;
+    
+}
+
+main h3 {
+    
+    font-size: 1rem;
+    text-align: center; 
+    color: black;
+}
+
+main img {
+    width: 90px;
+    height: 100px;
+    float: none;
+    margin: auto;
+   
+}
+    
+
+
+footer {
+    
+    margin: 5rem;
+    padding: .1rem;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    background-color: #0181CC;
+    color: white;
+    font-size: medium;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.highlow, .conditions{
+    font-size: 1rem;
+    text-align: center; 
+    color: black;
+}
+
+.town-article {
+    font-size: 1.5rem;
+    text-align: center; 
+    overflow-wrap: break-word;
+    width: 100%;
+    clear: both;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.town-article img {
+    width: 180px;
+    height: 100px;
+    float: none;
+    margin: auto;
+    
+}
+
+section.forecast{
+    display:none;
+}
+
+.current{
+    
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+.container{
+    margin:0 auto;
+    max-width: 1600px;
+    padding: 0 1rem; 
+}
+
+.responsive-image{
+    max-width: 100%;
+}
+
+.cell {
+    margin: 1rem;
+    border: 0.1px solid gray;
+    background-color: antiquewhite;
+    
+}
+
+.cell img {
+    display:block;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+.cell p {
+    text-align: center;
+    font-size: 27px;  
+}
+
+.cell h3 {
+    font-size: 30px;
+    
+}
+
+section{
+   min-height: 30vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
