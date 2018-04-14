@@ -1,7 +1,7 @@
 {
     "tours": [
         { "company":"Extreme Tour",
-         "motto":"More tree is more life",
+         "motto":"Find your Limits!",
          "description":"A tour for pros. Prepare yourself and join us in this extreme tour riding through mountains and forest.", 
          "length":100,
          "skill":"Advanced", 
@@ -10,7 +10,7 @@
         },
 
         {"company":"The City Tour", 
-         "motto":"Marking the Asphalt",
+         "motto":"Discover Mountain Bike!",
          "description":"Join us in this amazing tour around the city of Bozmean. Discover the beauties of this city and exercise youself.", 
          "length":10,
          "skill":"Beginner", 
