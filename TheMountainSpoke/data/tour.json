@@ -1,18 +1,18 @@
 {
     "tours": [
-        { "company":"The Jungle Tour",
+        { "company":"Extreme Tour",
          "motto":"More tree is more life",
-         "description":"It's a place where you can bike through a florest and have a great contact with the nature.", 
-         "length":90,
-         "skill":"Intermediate", 
-         "cost":120, 
+         "description":"A tour for pros. Prepare yourself and join us in this extreme tour riding through mountains and forest.", 
+         "length":100,
+         "skill":"Advanced", 
+         "cost":200, 
          "location":"100 Mayfield Road Bozeman, MT 59715, USA." 
         },
 
-        {"company":"The Street Tour", 
+        {"company":"The City Tour", 
          "motto":"Marking the Asphalt",
-         "description":"A free trail for biking in the city. Here you can bike near the buildings and eat a fastfood.", 
-         "length":9,
+         "description":"Join us in this amazing tour around the city of Bozmean. Discover the beauties of this city and exercise youself.", 
+         "length":10,
          "skill":"Beginner", 
          "cost":100, 
          "location":"111 S Grand Ave, Bozeman, MT 59715, USA" 
