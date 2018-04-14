@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <title>The Mountain Spoke</title>
+        <meta charset="utf-8">
+        <meta name="description" content="The Mountain Spoke is specialized in bike and part sale, repair, tour, and much more."> 
+        <meta name="author" content="Vitor Ferreira">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="bike,sale,service,shop,store,bozeman,montana">
+
+        <!-- External resources -->
+        
+        <!-- Getting google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+        <!-- normalize -->
+        <link href="css/normalize.css" rel="stylesheet">
+
+        <!-- Page Style -->
+
+        <!--Main View-->
+        <link href="css/main.css" rel="stylesheet">
+
+        <!--Medium View-->
+        <link href="css/mediumView.css" rel="stylesheet">
+
+        <!--Large View-->
+        <link href="css/largeView.css" rel="stylesheet">
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>  
+        <!--Icon-->
+        <link rel="icon" href="img/Icon/minibike.jpg" type="image/png" sizes="40x40">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="img/Logo/logo.png" alt="Logo">
+        </header>
+
+        <nav>
+            <button id="hamburger">&#9776;</button>
+            <ul id="navUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="sale.html">Sale</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <div id="tourGrid"></div>
+        </main>
+        
+        <footer>
+            <div id="gridContainer">
+                <section>
+                    <h3>Social Media</h3>
+                    <a href="#"><img class="socialMedia" src="img/Icon/facebookicon.png" alt="Facebook"></a>
+                    <a href="#"><img class="socialMedia" src="img/Icon/instagramicon.png" alt="Instagram"></a>
+                    <a href="#"><img class="socialMedia" src="img/Icon/twittericon.png" alt="Twitter"></a>
+                    <a href="#"><img class="socialMedia" src="img/Icon/pinteresticon.png" alt="Pinterest"></a>
+                </section>
+                <section>
+                    <h3>Store Info</h3>
+                    <p><img class="socialMedia" src="img/Icon/phone.png" alt="Telephone">123-456-7890</p>
+                    <p>3950 Valley Commons Dr, Bozeman, MT 59718, USA</p>
+                    <p>Monday - Saturday: 10-7</p>
+                    <p>Sunday: Closed</p>
+                </section>
+                
+                <section id="copyright">
+                    <p>&copy; Vitor Hugo S. Ferreira • <a href="http://www.byui.edu/">Brigham Young University Idaho</a> • <a href="https://vhsferreira.github.io/index.html">CIT 230 Assigment Portal</a> • <span id="currentdate"></span></p>
+                </section>
+            </div>
+        </footer>
+        <script src="js/hamburger.js"></script>
+        <script src="js/activeLink.js"></script>
+        <script src="js/getTour.js"></script>
+        <script src="js/currentDate.js"></script>
+        
+        
+    </body>
+</html>
