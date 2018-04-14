@@ -1,16 +1,16 @@
 {
     "tours": [
         { "company":"Extreme Tour",
-         "motto":"Life is better on  a mountain bike.",
-         "description":"This is a tour for the pros. Join us to this extreme tour through forests and mountains! ", 
+         "motto":"More tree is more life",
+         "description":"This is a tour for the pros.", 
          "length":100,
          "skill":"Advanced", 
-         "cost":200, 
+         "cost":150, 
          "location":"100 Mayfield Road Bozeman, MT 59715, USA." 
         },
 
         {"company":"The City Tour", 
-         "motto":"A bad day ",
+         "motto":"Marking the Asphalt",
          "description":"Forget about your busy life joining us in this tour around the Bozeman's streets! , 
          "length":9,
          "skill":"Beginner", 
