@@ -9,20 +9,20 @@
             
         },
         {
-            "name":"Black Diamond 7",
+            "name":"MARIN HAWK HILL",
             "sizes":"XS, S, M, L, XL",
-            "price":2000,
-            "colors":"yellow, red, and black",
-            "description":"If do you like speed, this is a good choice! Black Diamond 7 is a perfect bike for how are trying to enter in a bike competition."
+            "price":1500,
+            "colors":"black and blue",
+            "description":"If you want a full-suspension bike and aren’t ready to jump for something in the $2,500 range, Marin’s 120-millimeter-travel, 27.5-wheeled Hawk Hill is probably the way to go. It doesn’t come stock with a dropper post, but does feature just about every other indicator of a modern trail bike. Marin is a trustworthy brand, and the Hawk Hill has a pretty trustworthy spec, including a 10-speed drivetrain with a clutch-equipped Shimano Deore rear derailleur that shifts the chain on a SunRace 11-42 cassette. One-by doesn’t get more budget than that. Suspension is provided by a RockShox Recon Silver RL  fork and an X-Fusion O2 Pro R shock, and Schwalbe Hans Dampf tires provide some added cushion.."
             
         },
         
         {
-            "name":"Silver & Gold 2",
+            "name":"KONA PRECEPT 150",
             "sizes":"XS, S, M, L, XL",
-            "price":4000,
-            "colors":"silver, black, gold, and brass",
-            "description":"The newest Silver & God bike. This bike is considerated the better choice for compatition in 2018."
+            "price":2200,
+            "colors":"light blue",
+            "description":"The Precept also sports modern, aggressive geometry-a size large has a roomy 460 millimeter reach, a 66.5 head angle and tight 425 millimeter chainstays. Given this bike’s aggressive stance, we’d say that the component most in need of upgrading will be the Shimano Acera brakes."
             
         }
     ]
