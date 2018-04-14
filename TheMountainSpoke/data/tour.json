@@ -2,7 +2,7 @@
     "tours": [
         { "company":"The Jungle Tour",
          "motto":"More tree is more life",
-         "description":"It's a place where you can bike through a florest and have a greate contact with the nature.", 
+         "description":"It's a place where you can bike through a florest and have a great contact with the nature.", 
          "length":90,
          "skill":"Intermediate", 
          "cost":120, 
