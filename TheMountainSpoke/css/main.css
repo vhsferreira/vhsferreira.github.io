@@ -181,7 +181,7 @@ textarea{
 }
 #saleGrid{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
     grid-row-gap:25px;
     margin-top:3%;
     margin-left:10px;
