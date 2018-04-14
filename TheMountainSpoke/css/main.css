@@ -213,7 +213,7 @@ textarea{
 
 #contactGrid{
     margin-top:5%;
-    display: subgrid;
+    display: grid;
     grid-template-columns: 1fr;
 }
 #googleMap{
